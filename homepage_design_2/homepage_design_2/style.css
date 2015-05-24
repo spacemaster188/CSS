@@ -1,0 +1,159 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #e3f1f9;
+}
+
+#container {
+	min-height: 100%;
+	padding-bottom: 65px;
+	box-sizing: border-box;
+	
+}
+
+#header {
+	background: #111a29;
+}
+
+#headercontent {
+	display: table;
+	background: url(header-bg.jpg) right no-repeat;
+	width: 1305px;
+	margin: 0 auto;
+	height: 274px;
+}
+
+#headertext {
+	display: table-cell;
+	vertical-align: middle;
+	color: #bfd4de;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 64px;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+#step {
+	background: #bfd4de;
+}
+
+#stepcontent {
+	background: #bfd4de;
+	height: 75px;
+	width: 1305px;
+	margin: 0 auto;
+	line-height: 75px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #364654;
+}
+
+#content {
+	background: #ffffff;
+	width: 1305px;
+	margin: 0 auto;
+	padding: 30px 0 45px 0;
+	font-size: 20px;
+	color: #384856;
+}
+
+p {
+	text-indent: 50px;
+}
+
+#footer {
+	background: #364654;
+	margin-top: -65px;
+}
+
+#footercontent {
+	background: #364654;
+	height: 65px;
+	width: 1305px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 65px;
+}
+
+#copyright {
+	height: 100%;
+	width: 305px;
+	float: left;
+}
+
+#bottommenu {
+	height: 100%;
+	width: 1000px;
+	float: left;
+	text-align: right;
+}
+
+#bottommenu a {
+	margin: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#bottommenu a:hover {
+	text-decoration: none;
+}
+
+#hidden {
+	height: 125px;
+}
+
+form {
+	margin-top: 40px;
+}
+
+label {
+	display: inline-block;
+	padding: 0 20px;
+	width: 185px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type="text"], select {
+	box-sizing: border-box;
+	margin: 18px 0;
+	width: 355px;
+	height: 50px;
+	line-height: 50px; /* FOR IE */
+	font-size: 20px;
+	padding: 0 5px;
+}
+
+select {
+	padding: 12px 5px; /* FOR IE */
+}
+
+input[type="submit"] {
+	width: 150px;
+	height: 45px;
+	background: #364654;
+	color: #ffffff;
+	margin-top: 60px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+}
